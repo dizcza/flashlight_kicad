@@ -11,3 +11,4 @@ Gerbers*
 production/
 *.zip
 *-pos.csv
+*.xml
