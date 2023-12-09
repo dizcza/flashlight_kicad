@@ -1,9 +1,10 @@
 Comment,Designator,Footprint,LCSC
 "Battery_Cell","BT1","FlashlightLib:BH-18650","C2988620"
 "22uF/25V","C1,C2,C3,C4","Capacitor_SMD:C_0805_2012Metric","C513764"
-"D_Schottky","D1,D4,D5","Diode_SMD:D_SMB","C4749013"
+"D_Schottky","D1,D4,D5","Diode_SMD:D_SMB","C5338051"
 "RED","D2","LED_SMD:LED_0603_1608Metric","C497932"
 "GREEN","D3","LED_SMD:LED_0603_1608Metric","C205451"
+"~","D6,D9,D12","FlashlightLib:SMD3014","C210336"
 "USB_B_Micro","J1","FlashlightLib:USB-1101IPX6-02","C2858269"
 "10uH","L1","FlashlightLib:L_5.0x5.0","C2849501"
 "HSS2333","Q1,Q2","Package_TO_SOT_SMD:SOT-23","C845590"
