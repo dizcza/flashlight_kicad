@@ -44,3 +44,10 @@ Kicad PCB design for my wooden flashlight V1 (see https://github.com/dizcza/lase
 |LP4054HB5F  |U1         |Package_TO_SOT_SMD:SOT-23-5    |C517187   |
 |MT3608      |U2         |Package_TO_SOT_SMD:SOT-23-6    |C84817    |
 
+
+## Casing
+
+Design file: https://github.com/dizcza/lasercut_collection/blob/master/Lampa.scad
+
+Can be lasercut or 3d-printed.
+
