@@ -6,6 +6,11 @@ Kicad PCB design for my wooden flashlight V1 (see https://github.com/dizcza/lase
 <img src="./images/view_both.jpg" height="300" ></td>
 
 
+## Schematics
+
+[schematics.pdf](schematics.pdf)
+
+
 ## Revisions
 
 <table>
