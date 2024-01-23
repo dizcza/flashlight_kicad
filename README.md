@@ -1,9 +1,15 @@
 # Flashlight PCB design with wooden casing
 
-Kicad PCB design for my wooden flashlight V1 (see https://github.com/dizcza/lasercut_collection).
+Kicad PCB design for my wooden flashlight V1 (see https://github.com/dizcza/lasercut_collection). Originally designed by HackLabKyiv residents.
 
 
-<img src="./images/view_both.jpg" height="300" ></td>
+<table>
+  <tr>
+   <td><img src="./images/view_both.jpg" height="300" ></td>
+   <td><img src="https://github.com/dizcza/lasercut_collection/blob/master/images/flashlight1.jpg" height="300" ></td>
+  </tr>
+</table>
+
 
 
 ## Schematics
@@ -15,14 +21,14 @@ Kicad PCB design for my wooden flashlight V1 (see https://github.com/dizcza/lase
 
 <table>
   <tr>
-    <th>V1</th>
-    <th>V2.1</th>
-    <th>V2.2</th>
+   <th>V1</th>
+   <th>V2.1</th>
+   <th>V2.2</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/dizcza/lasercut_collection/blob/master/images/flashlight1.jpg" height="300" ></td>
-    <td><img src="./images/v2_1.jpg" height="300" ></td>
-    <td><img src="./images/view_bottom_v2.png" height="300" ></td>
+   <td><img src="./images/v1.jpg" height="300" ></td>
+   <td><img src="./images/v2_1.jpg" height="300" ></td>
+   <td><img src="./images/view_bottom_v2.png" height="300" ></td>
   </tr>
 </table>
 
@@ -47,7 +53,9 @@ Kicad PCB design for my wooden flashlight V1 (see https://github.com/dizcza/lase
 
 ## Casing
 
-Design file: https://github.com/dizcza/lasercut_collection/blob/master/Lampa.scad
-
 Can be lasercut or 3d-printed.
+
+DXF file: [casing](./casing/casing.dxf)
+
+OpenSCAD design file: https://github.com/dizcza/lasercut_collection/blob/master/Lampa.scad
 
