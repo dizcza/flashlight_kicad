@@ -55,7 +55,9 @@ Kicad PCB design for my wooden flashlight V1 (see https://github.com/dizcza/lase
 
 Can be lasercut or 3d-printed.
 
-DXF file: [casing](./casing/casing.dxf)
+<img src="./casing/casing.svg" height="200" >
+
+DXF file: [casing.dxf](./casing/casing.dxf)
 
 OpenSCAD design file: https://github.com/dizcza/lasercut_collection/blob/master/Lampa.scad
 
