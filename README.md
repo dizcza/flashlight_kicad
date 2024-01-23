@@ -46,7 +46,8 @@ Kicad PCB design for my wooden flashlight V1 (see https://github.com/dizcza/lase
 |10uH        |L1         |FlashlightLib:L_5.0x5.0        |C2849501  |
 |HSS2333     |Q1,Q2      |Package_TO_SOT_SMD:SOT-23      |C845590   |
 |1k          |R1,R2,R3   |Resistor_SMD:R_0805_2012Metric |C17513    |
-|10k         |R4,R6,R11  |Resistor_SMD:R_0805_2012Metric |C17414    |
+|10k         |R4,R6,R11  |Resistor_SMD:R_0603_1608Metric |C25804    |
+|200k        |R7         |Resistor_SMD:R_0603_1608Metric |C25811    |
 |LP4054HB5F  |U1         |Package_TO_SOT_SMD:SOT-23-5    |C517187   |
 |MT3608      |U2         |Package_TO_SOT_SMD:SOT-23-6    |C84817    |
 
