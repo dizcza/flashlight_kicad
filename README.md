@@ -2,6 +2,7 @@
 
 Kicad PCB design for my wooden flashlight V1 (see https://github.com/dizcza/lasercut_collection). Originally designed by HackLabKyiv residents.
 
+An ordinary 12V LED strip is soldered to the front side of the PCB.
 
 <table>
   <tr>
