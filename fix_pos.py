@@ -11,7 +11,7 @@ PATH.write_text('\n'.join(lines))
 
 df = pd.read_csv(PATH, index_col=0)
 df.loc[["D2", "D3", "Q1", "Q2", "U1"], "Rotation"] += 180
-df.loc[["D1", "D4", "D5"], "Rotation"] += 180
-df.loc["U2", "Rotation"] += 270
+df.loc[["D1"], "Rotation"] += 180
+df.loc["U2", "Rotation"] += 90
 df.loc[:, "Rotation"] %= 360
 df.to_csv(PATH)
