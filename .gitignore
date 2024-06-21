@@ -16,3 +16,6 @@ jlcpcb/
 *.xml
 flashlight.csv
 _autosave*
+*.csv
+*.json
+flashlight-job.gbrjob
