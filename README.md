@@ -36,21 +36,21 @@ An ordinary 12V LED strip is soldered to the front side of the PCB.
 
 ## BOM
 
-|Comment     |Designator |Footprint                      |JLC Part #|
-|------------|-----------|-------------------------------|----------|
-|Battery_Cell|BT1        |FlashlightLib:BH-18650         |C2988620  |
-|22uF/25V    |C1,C2,C3,C4|Capacitor_SMD:C_0805_2012Metric|C45783    |
-|D_Schottky  |D1,D4,D5   |Diode_SMD:D_SMB                |C22452    |
-|RED         |D2         |LED_SMD:LED_0603_1608Metric    |C2286     |
-|GREEN       |D3         |LED_SMD:LED_0805_2012Metric    |C2297     |
-|USB_B_Micro |J1         |FlashlightLib:USB-1101IPX6-02  |C2858269  |
-|10uH        |L1         |FlashlightLib:L_5.0x5.0        |C2849501  |
-|HSS2333     |Q1,Q2      |Package_TO_SOT_SMD:SOT-23      |C845590   |
-|1k          |R1,R2,R3   |Resistor_SMD:R_0805_2012Metric |C17513    |
-|10k         |R4,R6,R11  |Resistor_SMD:R_0603_1608Metric |C25804    |
-|200k        |R7         |Resistor_SMD:R_0603_1608Metric |C25811    |
-|LP4054HB5F  |U1         |Package_TO_SOT_SMD:SOT-23-5    |C517187   |
-|MT3608      |U2         |Package_TO_SOT_SMD:SOT-23-6    |C84817    |
+|Comment             |Designator|Footprint                      |LCSC    |
+|--------------------|----------|-------------------------------|--------|
+|22uF/25V            |C1,C3,C4  |Capacitor_SMD:C_0805_2012Metric|C45783  |
+|1uF                 |C2        |Capacitor_SMD:C_0603_1608Metric|C15849  |
+|D_Schottky          |D1,D4,D5  |Diode_SMD:D_SMB                |C22452  |
+|USB_B_Micro         |J1        |FlashlightLib:USB-1101IPX6-02  |C2858269|
+|10uH                |L1        |FlashlightLib:L_5.0x5.0        |C2849501|
+|HSS2333             |Q2        |Package_TO_SOT_SMD:SOT-23      |C15127  |
+|1k                  |R1,R2,R3  |Resistor_SMD:R_0603_1608Metric |C21190  |
+|10k                 |R4,R6     |Resistor_SMD:R_0603_1608Metric |C25804  |
+|200k                |R7        |Resistor_SMD:R_0603_1608Metric |C25811  |
+|XB4908A             |U1        |FlashlightLib:XB4908A          |C2998740|
+|MT3608              |U2        |Package_TO_SOT_SMD:SOT-23-6    |C84817  |
+|TP4057              |U3        |Package_TO_SOT_SMD:TSOT-23-6   |        |
+|R6BHC-A05_LED-19-223|U4        |MyFootprints:R6BHC-A05_LED     |C131286 |
 
 
 ## Casing
