@@ -49,7 +49,7 @@ An ordinary 12V LED strip is soldered to the front side of the PCB.
 |200k                |R7        |Resistor_SMD:R_0603_1608Metric |C25811  |
 |XB4908A             |U1        |FlashlightLib:XB4908A          |C2998740|
 |MT3608              |U2        |Package_TO_SOT_SMD:SOT-23-6    |C84817  |
-|TP4057              |U3        |Package_TO_SOT_SMD:TSOT-23-6   |        |
+|TP4057              |U3        |Package_TO_SOT_SMD:TSOT-23-6   |C12044  |
 |R6BHC-A05_LED-19-223|U4        |MyFootprints:R6BHC-A05_LED     |C131286 |
 
 

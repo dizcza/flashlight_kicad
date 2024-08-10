@@ -6370,6 +6370,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C12044"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "45f84774-625e-4dc7-9ac5-15bf6368ed18")
 		)
