@@ -2409,6 +2409,149 @@
 				)
 			)
 		)
+		(symbol "power:Earth_Protective"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth_Protective"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd clean"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_Protective_0_1"
+				(circle
+					(center 0 -3.81)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -4.445) (xy 0.635 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -5.08) (xy 0.127 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_Protective_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2651,7 +2794,7 @@
 		(uuid "8f22198a-bef3-4eef-8d61-ae9af573141c")
 	)
 	(junction
-		(at 264.16 58.42)
+		(at 270.51 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3e67db3-3655-43f0-bad7-93fea8009c45")
@@ -2699,12 +2842,6 @@
 		(uuid "e929a86e-c8d9-4be6-829d-2e377275d214")
 	)
 	(junction
-		(at 142.24 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4759dd3-7698-440e-b47c-eb15c80fd84c")
-	)
-	(junction
 		(at 252.73 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2745,6 +2882,16 @@
 			(type default)
 		)
 		(uuid "055255c4-12dd-465b-a848-3905a54f6370")
+	)
+	(wire
+		(pts
+			(xy 151.13 102.87) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08590668-ab6f-4f44-b46b-6c59b6b54353")
 	)
 	(wire
 		(pts
@@ -2938,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 105.41) (xy 142.24 104.14)
+			(xy 137.16 102.87) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2988,16 +3135,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 95.25) (xy 149.86 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46df3a8b-ec25-4695-aab3-5595e5ff0a94")
-	)
-	(wire
-		(pts
 			(xy 76.835 66.675) (xy 76.835 67.31)
 		)
 		(stroke
@@ -3038,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 52.07) (xy 264.16 58.42)
+			(xy 270.51 52.07) (xy 270.51 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3048,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 67.31) (xy 264.16 58.42)
+			(xy 270.51 67.31) (xy 270.51 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3075,16 +3212,6 @@
 			(type default)
 		)
 		(uuid "5d8783b3-beb8-452e-b883-72f2590ceea9")
-	)
-	(wire
-		(pts
-			(xy 142.24 104.14) (xy 142.24 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e687c96-6e4d-45f2-8660-b4e1b0185d2a")
 	)
 	(wire
 		(pts
@@ -3148,7 +3275,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 58.42) (xy 264.16 58.42)
+			(xy 252.73 58.42) (xy 270.51 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3228,16 +3355,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 104.14) (xy 142.24 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fbed257-0d19-4467-8a49-a29e6379e846")
-	)
-	(wire
-		(pts
 			(xy 119.38 120.65) (xy 119.38 123.19)
 		)
 		(stroke
@@ -3288,7 +3405,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 87.63) (xy 161.29 87.63)
+			(xy 137.16 87.63) (xy 161.29 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3365,6 +3482,16 @@
 			(type default)
 		)
 		(uuid "b2afac69-905b-4321-a3e0-4913b721dfdb")
+	)
+	(wire
+		(pts
+			(xy 151.13 95.25) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b421f926-b95c-4405-bb3b-7292ee2fb957")
 	)
 	(wire
 		(pts
@@ -3478,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 90.17) (xy 264.16 74.93)
+			(xy 270.51 90.17) (xy 270.51 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3613,7 +3740,7 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 264.16 52.07 90)
+		(at 270.51 52.07 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3623,7 +3750,7 @@
 		)
 		(uuid "f6542ca8-4e08-4fd9-833a-79c93ae4b06e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.16 44.3676 90)
+			(at 270.51 44.3676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,6 +3829,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth_Protective")
+		(at 190.5 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07032da1-bbd1-4511-b86f-9ca8e4c57145")
+		(property "Reference" "#PWR08"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth_Protective"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+			(at 190.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35f47382-4834-45f1-b44c-9a8c9b39675e")
+		)
+		(instances
+			(project "flashlight"
+				(path "/98487160-c149-430f-8381-4af03ebcbf31"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 179.07 105.41 0)
 		(unit 1)
@@ -3763,6 +3956,72 @@
 			(project "flashlight"
 				(path "/98487160-c149-430f-8381-4af03ebcbf31"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth_Protective")
+		(at 270.51 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fe6ff00-b129-42f9-b473-8fac80e5e679")
+		(property "Reference" "#PWR013"
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth_Protective"
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+			(at 270.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d3beb4f-6609-45fd-9773-70e86f6aa77e")
+		)
+		(instances
+			(project "flashlight"
+				(path "/98487160-c149-430f-8381-4af03ebcbf31"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3848,6 +4107,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth_Protective")
+		(at 223.52 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10e034eb-a06f-4cf2-9332-cb2703d451b0")
+		(property "Reference" "#PWR011"
+			(at 223.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth_Protective"
+			(at 223.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+			(at 223.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81ee5c6a-f65e-4ac2-9725-a736aa5dbb60")
+		)
+		(instances
+			(project "flashlight"
+				(path "/98487160-c149-430f-8381-4af03ebcbf31"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 109.22 120.65 0)
 		(unit 1)
@@ -3913,6 +4238,72 @@
 			(project "flashlight"
 				(path "/98487160-c149-430f-8381-4af03ebcbf31"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth_Protective")
+		(at 119.38 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34dae438-2ddd-46f5-b9cf-8e74de16122b")
+		(property "Reference" "#PWR014"
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth_Protective"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af959438-c5c0-441f-b88f-4e17e3635a20")
+		)
+		(instances
+			(project "flashlight"
+				(path "/98487160-c149-430f-8381-4af03ebcbf31"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4161,6 +4552,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth_Protective")
+		(at 151.13 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4adf7423-52a6-4fdb-9891-06e103b092b2")
+		(property "Reference" "#PWR05"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth_Protective"
+			(at 151.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a172ce85-9984-455a-8c90-de8554d6c4f9")
+		)
+		(instances
+			(project ""
+				(path "/98487160-c149-430f-8381-4af03ebcbf31"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 53.34 80.01 0)
 		(unit 1)
@@ -4222,140 +4679,6 @@
 			(project "flashlight"
 				(path "/98487160-c149-430f-8381-4af03ebcbf31"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "662cc641-370b-4e61-bef4-392569b12b12")
-		(property "Reference" "#PWR012"
-			(at 223.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a40750fe-8c0b-438d-8139-197e34a0093e")
-		)
-		(instances
-			(project "flashlight"
-				(path "/98487160-c149-430f-8381-4af03ebcbf31"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6988fbba-0ffd-464b-a8fe-e01188a908b6")
-		(property "Reference" "#PWR013"
-			(at 252.73 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17dbca64-c9d0-4e10-a657-436017ebcf8c")
-		)
-		(instances
-			(project "flashlight"
-				(path "/98487160-c149-430f-8381-4af03ebcbf31"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4517,7 +4840,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 105.41 0)
+		(at 137.16 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4526,7 +4849,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b30d445-edfb-45c8-a6b4-221f206b4817")
 		(property "Reference" "#PWR04"
-			(at 142.24 111.76 0)
+			(at 137.16 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4858,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 106.68 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 105.41 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 105.41 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 105.41 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,7 +5065,7 @@
 	)
 	(symbol
 		(lib_id "MySymbols:XB4908A")
-		(at 142.24 95.25 0)
+		(at 137.16 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4751,7 +5074,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b6a2688-b508-4a7c-976e-48e941e9fe05")
 		(property "Reference" "U1"
-			(at 135.89 93.9799 0)
+			(at 130.81 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4760,7 +5083,7 @@
 			)
 		)
 		(property "Value" "XB4908A"
-			(at 135.89 96.5199 0)
+			(at 130.81 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +5092,7 @@
 			)
 		)
 		(property "Footprint" "FlashlightLib:XB4908A"
-			(at 141.732 103.886 0)
+			(at 136.652 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +5101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 95.25 0)
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +5110,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 95.25 0)
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +5119,7 @@
 			)
 		)
 		(property "LCSC" "C2998740"
-			(at 142.24 95.25 0)
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,72 +5143,6 @@
 			(project ""
 				(path "/98487160-c149-430f-8381-4af03ebcbf31"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3303743-793a-4fc6-a544-27ec4cffbca9")
-		(property "Reference" "#PWR019"
-			(at 119.38 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6dab5a5-21b2-4a3e-b675-3f49973db801")
-		)
-		(instances
-			(project "flashlight"
-				(path "/98487160-c149-430f-8381-4af03ebcbf31"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4970,73 +5227,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa3e9da8-2d80-4efa-aeaa-e6a5a2f94818")
-		(property "Reference" "#PWR014"
-			(at 264.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d60315c0-a8a5-4f4b-b8ea-80950586b2d0")
-		)
-		(instances
-			(project "flashlight"
-				(path "/98487160-c149-430f-8381-4af03ebcbf31"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 102.87 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5097,73 +5287,6 @@
 			(project "flashlight"
 				(path "/98487160-c149-430f-8381-4af03ebcbf31"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4713366-0624-40e5-9606-a54a0e77a2a8")
-		(property "Reference" "#PWR011"
-			(at 190.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33294cb0-ecfb-41e0-a402-80a5652d6beb")
-		)
-		(instances
-			(project "flashlight"
-				(path "/98487160-c149-430f-8381-4af03ebcbf31"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5403,6 +5526,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth_Protective")
+		(at 252.73 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb3f57f-33ed-402d-9fcc-ca4a75407c51")
+		(property "Reference" "#PWR012"
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth_Protective"
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b8e1ecf-0437-4d50-9171-0a2f8ba29cb4")
+		)
+		(instances
+			(project "flashlight"
+				(path "/98487160-c149-430f-8381-4af03ebcbf31"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:MT3608")
 		(at 223.52 74.93 0)
 		(unit 1)
@@ -5428,7 +5617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-6-Tight"
 			(at 224.79 81.28 0)
 			(effects
 				(font
@@ -5868,7 +6057,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 264.16 71.12 0)
+		(at 270.51 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5877,7 +6066,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec8fb7c7-6533-42f5-97b9-9b960a992570")
 		(property "Reference" "C4"
-			(at 267.97 69.85 0)
+			(at 274.32 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5886,7 +6075,7 @@
 			)
 		)
 		(property "Value" "22uF/25V"
-			(at 267.97 72.39 0)
+			(at 274.32 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,7 +6084,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 265.1252 74.93 0)
+			(at 271.4752 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +6093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 71.12 0)
+			(at 270.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +6102,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 264.16 71.12 0)
+			(at 270.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +6111,7 @@
 			)
 		)
 		(property "LCSC" "C45783"
-			(at 264.16 71.12 0)
+			(at 270.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
