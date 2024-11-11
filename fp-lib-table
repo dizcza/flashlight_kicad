@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
   (lib (name "FlashlightLib")(type "KiCad")(uri "${KIPRJMOD}/FlashlightLib.pretty")(options "")(descr ""))
-  (lib (name "MyFootprints")(type "KiCad")(uri "/home/dizcza/Projects/SRS/sdpsensor_kicad/MyFootprints.pretty")(options "")(descr ""))
 )

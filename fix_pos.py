@@ -10,7 +10,7 @@ lines[0] = "Designator,Val,Package,MidX,MidY,Rotation,Layer"
 PATH.write_text('\n'.join(lines))
 
 df = pd.read_csv(PATH, index_col=0)
-df.loc[["Q2", "U3", "U4"], "Rotation"] += 180
+df.loc[["Q2", "U4"], "Rotation"] += 180
 df.loc[["U3", "U2"], "Rotation"] += 90
 df.loc[["D1"], "Rotation"] += 180
 df.loc[:, "Rotation"] %= 360

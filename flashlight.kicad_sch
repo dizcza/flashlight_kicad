@@ -1959,29 +1959,47 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_DIP_x01"
-			(pin_names
-				(offset 0) hide)
+		(symbol "SS12J01_071:SS12J01_071"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
+			(property "Reference" "U"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
+			(property "Value" "SS12J01_071"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprint:SW-TH_SHOU-HAN_SS12J01"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210820/C8D204FD916E0419E3F50724706D9DFB.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1990,7 +2008,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "LCSC" "C2887258"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1999,7 +2017,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(property "ki_keywords" "C2887258"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2008,28 +2026,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x01_0_0"
+			(symbol "SS12J01_071_0_1"
 				(circle
-					(center -2.032 0)
-					(radius 0.508)
+					(center -2.54 0.254)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.016) (xy -2.794 1.778)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2040,7 +2052,79 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
+						(xy -2.54 1.016) (xy -2.286 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy -0.254 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0.254 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.016) (xy 2.286 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.016) (xy 2.794 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.016) (xy -2.54 3.048) (xy 0 3.048) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 4.318) (xy 0 4.318) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -2051,63 +2135,77 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 0 0.254)
+					(radius 0.254)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_0_1"
-				(rectangle
-					(start -3.81 2.54)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-			)
-			(symbol "SW_DIP_x01_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
+				(circle
+					(center 2.54 0.254)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
+				(pin unspecified line
+					(at 0 -2.54 90)
+					(length 3.048)
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -2935,6 +3033,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 55.88) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed893ad-6f82-4bcc-8695-b7912c34af03")
+	)
+	(wire
+		(pts
 			(xy 190.5 58.42) (xy 207.01 58.42)
 		)
 		(stroke
@@ -3255,7 +3363,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 58.42) (xy 168.91 58.42)
+			(xy 165.1 58.42) (xy 177.8 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3525,13 +3633,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 58.42) (xy 190.5 58.42)
+			(xy 177.8 58.42) (xy 177.8 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c36fec31-0af1-4948-88ee-dafea5f33382")
+		(uuid "bde05fc9-10ae-4ec8-9bd5-8ca626b5f630")
 	)
 	(wire
 		(pts
@@ -3582,6 +3690,16 @@
 			(type default)
 		)
 		(uuid "dd4055e5-6882-41ea-859a-3ed1ea0df599")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 190.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd88294f-8a22-4d77-a7af-9e7c65d300a7")
 	)
 	(wire
 		(pts
@@ -3757,74 +3875,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 176.53 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "002114b0-c59f-4639-81b9-6e2e86ea1659")
-		(property "Reference" "SW1"
-			(at 176.53 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 176.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FlashlightLib:KCD11-2P"
-			(at 176.53 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 176.53 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22b783b6-ca6d-44c0-8b74-41bd09151f51")
-		)
-		(pin "2"
-			(uuid "c63e4b29-a8de-4545-88cd-e07a9b872380")
-		)
-		(instances
-			(project "flashlight"
-				(path "/98487160-c149-430f-8381-4af03ebcbf31"
-					(reference "SW1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4979,6 +5029,90 @@
 			(project "flashlight"
 				(path "/98487160-c149-430f-8381-4af03ebcbf31"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SS12J01_071:SS12J01_071")
+		(at 177.8 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "94bdcddb-8e7d-4cdf-957b-18e83f01f037")
+		(property "Reference" "U5"
+			(at 181.61 49.9109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS12J01_071"
+			(at 181.61 52.4509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-SS12J01:SW-TH_SHOU-HAN_SS12J01"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210820/C8D204FD916E0419E3F50724706D9DFB.pdf"
+			(at 175.514 53.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2887258"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e399ee80-426c-4e2f-ae9d-b1b9b95e4a20")
+		)
+		(pin "2"
+			(uuid "6fb6f028-ced5-4d6f-8abb-25a815726d32")
+		)
+		(pin "3"
+			(uuid "50c71710-b15c-482d-823a-89a19195803e")
+		)
+		(instances
+			(project "flashlight"
+				(path "/98487160-c149-430f-8381-4af03ebcbf31"
+					(reference "U5")
 					(unit 1)
 				)
 			)
