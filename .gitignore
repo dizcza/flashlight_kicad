@@ -1,3 +1,5 @@
+*.net
+.DS_Store
 :*-backups/
 .idea/
 *.bak

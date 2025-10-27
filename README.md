@@ -25,11 +25,13 @@ An ordinary 12V LED strip is soldered to the front side of the PCB.
    <th>V1</th>
    <th>V2.1</th>
    <th>V2.2</th>
+   <th>V3.0</th>
   </tr>
   <tr>
    <td><img src="./images/v1.jpg" height="300" ></td>
    <td><img src="./images/v2_1.jpg" height="300" ></td>
    <td><img src="./images/view_bottom_v2.png" height="300" ></td>
+   <td><img src="./images/flashlight_v3.png" height="300" ></td>
   </tr>
 </table>
 

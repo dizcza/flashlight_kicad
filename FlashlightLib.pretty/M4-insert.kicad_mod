@@ -1,0 +1,136 @@
+(footprint "M4-insert"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "73f1b729-5cc5-4980-aab1-8d08005dbf10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "M4-insert"
+		(at 0 1.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ac56ffdc-a423-4937-b56c-20f77c2cd20d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "471fdde7-d5ad-4a3c-91aa-750623d0c411")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c99cdb9b-f507-432f-94ae-4b9fde2e52d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "6f7e6de6-8cd9-4d82-8821-e7cf911b2a60")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.55 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f5dfa2c8-2072-42d2-ad38-7e28d8fd5a59")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8ca0272e-5b94-48ee-a487-b72c5c089a54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.3 4.3)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "cfe845db-10db-42d5-9387-499b556e1bde")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "2328d0c7-84f0-451b-98d1-e00b28a859e4")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -5.5 0)
+					(mid 5.5 0)
+					(end -5.5 0)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
