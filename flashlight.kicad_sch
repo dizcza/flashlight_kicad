@@ -4136,6 +4136,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 58.42) (xy 351.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5476e6-04b4-49cb-9c61-6225ae248083")
+	)
+	(wire
+		(pts
 			(xy 271.78 58.42) (xy 288.29 58.42)
 		)
 		(stroke
@@ -4336,6 +4346,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 67.31) (xy 369.57 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d0325f-829d-46ba-93e3-3f19320b29d4")
+	)
+	(wire
+		(pts
 			(xy 91.44 58.42) (xy 99.06 58.42)
 		)
 		(stroke
@@ -4503,6 +4523,16 @@
 			(type default)
 		)
 		(uuid "69429159-9d4e-478f-a265-435b03a47b16")
+	)
+	(wire
+		(pts
+			(xy 369.57 90.17) (xy 369.57 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699f8629-b283-4099-90f8-fb5962b7970c")
 	)
 	(wire
 		(pts
@@ -11213,6 +11243,73 @@
 	)
 	(symbol
 		(lib_id "power:Earth_Protective")
+		(at 369.57 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce54f366-b0b6-4bbb-955c-bb7e110763b8")
+		(property "Reference" "#PWR032"
+			(at 369.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth_Protective"
+			(at 369.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+			(at 369.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83c7701a-7a5d-4cd9-a1f4-a404c453e4f6")
+		)
+		(instances
+			(project "flashlight"
+				(path "/98487160-c149-430f-8381-4af03ebcbf31"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth_Protective")
 		(at 170.18 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12465,6 +12562,85 @@
 			(project "flashlight"
 				(path "/98487160-c149-430f-8381-4af03ebcbf31"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 369.57 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5658f4d-2823-4463-bb84-042f7814ac1c")
+		(property "Reference" "C7"
+			(at 373.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF/35V"
+			(at 373.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 370.5352 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 369.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119901"
+			(at 369.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56fe6138-0316-43ac-b0bd-25eab9c10f33")
+		)
+		(pin "1"
+			(uuid "eaa3f079-cfeb-4843-92c2-189f05456d76")
+		)
+		(instances
+			(project "flashlight"
+				(path "/98487160-c149-430f-8381-4af03ebcbf31"
+					(reference "C7")
 					(unit 1)
 				)
 			)
